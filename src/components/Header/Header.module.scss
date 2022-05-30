@@ -1,0 +1,11 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    li {
+        font-family: Roboto, sans-serif;
+        color: var(--tp-text-2);
+        list-style-type: none;
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
