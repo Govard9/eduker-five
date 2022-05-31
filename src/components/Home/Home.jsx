@@ -1,10 +1,13 @@
+import BottomHeader from "../Header/BottomHeader/BottomHeader";
+import TopHeader from "../Header/TopHeader/TopHeader";
 import styles from "./Home.module.scss"
-import Header from "../Header"
+
 
 const Home = () => {
   return (
     <div>
-      <Header />
+      <TopHeader />
+      <BottomHeader />
     </div>
   )
 }
