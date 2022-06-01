@@ -28,7 +28,7 @@ const TopHeader = () => {
 							fill="#4B535A"
 						></path>
 					</svg>
-					<a>info@educal.com</a>
+					<a href="mailto:info@educal.com">info@educal.com</a>
 				</li>
 				<li className={styles.location}>
 					<svg
@@ -51,7 +51,7 @@ const TopHeader = () => {
 							fill="#4B535A"
 						></path>
 					</svg>
-					<a>Moon ave, New York, 2020 NY US</a>
+					<a href="https://goo.gl/maps/qzqY2PAcQwUz1BYN9">Moon ave, New York, 2020 NY US</a>
 				</li>
 				<li className={styles.login}>
 					<svg
@@ -76,7 +76,7 @@ const TopHeader = () => {
 							stroke-linejoin="round"
 						></path>
 					</svg>
-					<a>Login</a>
+					<a href="/login">Login</a>
 				</li>
 				<li className={styles.contactUs}>
 					<button>Contact Us</button>
