@@ -1,9 +1,41 @@
 .main {
-    .input {
-        width: 100%;
-    }
-    form {
-        display: flex;
-        justify-content: flex-end;
-    }
+	.input {
+		width: 100%;
+	}
+	form {
+		display: flex;
+		justify-content: flex-end;
+		input {
+			height: 40px;
+			background-color: #f1f1f1;
+			outline: none;
+			padding: 0 55px 0 20px;
+			border: 0;
+			font-size: 14px;
+			font-family: Roboto, sans-serif;
+            margin-right: -15px;
+		}
+		button {
+            width: 35px;
+            height: 26px;
+			transform: translateX(-100%);
+			font-size: 16px;
+			color: var(--tp-common-black);
+			background-color: var(--tp-grey-1);
+            padding: 0 0 0 17px;
+			border: 0;
+            margin-top: 8px;
+            cursor: pointer;
+		}
+        button:after {
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 100%;
+            width: 1px;
+            background-color: rgba(3,18,32,.2);
+        }
+	}
 }
