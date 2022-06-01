@@ -6,7 +6,7 @@ const Search = () => {
 		<div className={styles.main}>
 			<div className={styles.input}>
 				<form>
-					<input />
+					<input placeholder="Search..." />
 					<button>
 						<svg
 							width="18"
