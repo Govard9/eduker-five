@@ -1,33 +1,37 @@
-import React from "react";
-import styles from "../Search/Search.module.scss";
+import React from 'react';
+import styles from '../Search/Search.module.scss';
 
 const Search = () => {
 	return (
 		<div className={styles.main}>
 			<div className={styles.input}>
 				<form>
+<<<<<<< HEAD
 					<input />
+=======
+					<input placeholder='Search...' />
+>>>>>>> 3246eec (Начал делать подвал и поправил шапку)
 					<button>
 						<svg
-							width="18"
-							height="18"
-							viewBox="0 0 18 18"
-							fill="none"
-							xmlns="http://www.w3.org/2000/svg"
+							width='18'
+							height='18'
+							viewBox='0 0 18 18'
+							fill='none'
+							xmlns='http://www.w3.org/2000/svg'
 						>
 							<path
-								d="M8.11117 15.2222C12.0385 15.2222 15.2223 12.0385 15.2223 8.11111C15.2223 4.18375 12.0385 1 8.11117 1C4.18381 1 1.00006 4.18375 1.00006 8.11111C1.00006 12.0385 4.18381 15.2222 8.11117 15.2222Z"
-								stroke="#031220"
-								stroke-width="2"
-								stroke-linecap="round"
-								stroke-linejoin="round"
+								d='M8.11117 15.2222C12.0385 15.2222 15.2223 12.0385 15.2223 8.11111C15.2223 4.18375 12.0385 1 8.11117 1C4.18381 1 1.00006 4.18375 1.00006 8.11111C1.00006 12.0385 4.18381 15.2222 8.11117 15.2222Z'
+								stroke='#031220'
+								stroke-width='2'
+								stroke-linecap='round'
+								stroke-linejoin='round'
 							></path>
 							<path
-								d="M17 17L13.1334 13.1333"
-								stroke="#031220"
-								stroke-width="2"
-								stroke-linecap="round"
-								stroke-linejoin="round"
+								d='M17 17L13.1334 13.1333'
+								stroke='#031220'
+								stroke-width='2'
+								stroke-linecap='round'
+								stroke-linejoin='round'
 							></path>
 						</svg>
 					</button>

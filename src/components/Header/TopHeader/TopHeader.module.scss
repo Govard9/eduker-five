@@ -5,6 +5,7 @@
 }
 
 .main {
+<<<<<<< HEAD
     display: flex;
     justify-content: space-between;
     margin-left: auto;
@@ -46,3 +47,86 @@
 
     }
 }
+=======
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	height: 34px;
+	padding: 0;
+	li {
+		font-family: Roboto, sans-serif;
+		color: var(--tp-text-2);
+		list-style-type: none;
+		font-size: 13px;
+		font-weight: 400;
+		cursor: pointer;
+	}
+	.mail {
+		margin-top: 10px;
+		margin-right: 20px;
+		a {
+			vertical-align: 3px;
+			text-decoration: none;
+			margin-left: 7px;
+			color: rgb(0, 0, 0);
+		}
+		a:hover {
+			color: #2a2dfa;
+			transition: all 0.3s;
+		}
+	}
+	.location {
+		margin-top: 10px;
+		a {
+			margin-left: 7px;
+			text-decoration: none;
+			vertical-align: 3px;
+			color: rgb(0, 0, 0);
+		}
+		a:hover {
+			color: #2a2dfa;
+			transition: all 0.3s;
+		}
+	}
+	.login {
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: 20px;
+		a {
+			font-size: 14px;
+			margin-left: 7px;
+			text-decoration: none;
+			color: rgb(0, 0, 0);
+			vertical-align: 3px;
+		}
+		a:hover {
+			color: #2a2dfa;
+			transition: all 0.3s;
+		}
+	}
+	.contactUs {
+		outline: none;
+		button {
+			display: inline-block;
+			line-height: 30px;
+			text-align: center;
+			font-size: 14px;
+			color: #fff;
+			background-color: #031220;
+			font-weight: 500;
+			text-transform: capitalize;
+			padding: 0 25px;
+			border: 0;
+			height: 100%;
+			transition: all 0.3s;
+			cursor: pointer;
+		}
+		button:hover {
+			background-color: #2a2dfa;
+		}
+	}
+}
+>>>>>>> 3246eec (Начал делать подвал и поправил шапку)
