@@ -1,15 +1,14 @@
-import BottomHeader from "../Header/BottomHeader/BottomHeader";
-import TopHeader from "../Header/TopHeader/TopHeader";
-import styles from "./Home.module.scss"
-
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+import styles from './Home.module.scss';
 
 const Home = () => {
-  return (
-    <div>
-      <TopHeader />
-      <BottomHeader />
-    </div>
-  )
-}
+	return (
+		<div>
+			<Header />
+			<Footer />
+		</div>
+	);
+};
 
 export default Home;
