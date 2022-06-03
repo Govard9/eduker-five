@@ -1,53 +1,9 @@
 .divMain {
-    margin-top: -5px;
-    width: 100%;
-    border-bottom: 1px solid rgb(218, 218, 218);
+	width: 100%;
+	border-bottom: 1px solid rgb(218, 218, 218);
 }
 
 .main {
-<<<<<<< HEAD
-    display: flex;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-    height: 34px;
-    margin-bottom: -5px;
-    padding: 0;
-    li {
-        font-family: Roboto, sans-serif;
-        color: var(--tp-text-2);
-        list-style-type: none;
-        font-size: 13px;
-        font-weight: 400;
-    }
-    .mail {
-        a {
-            margin-left: 10px;
-        }
-        
-    }
-    .location {
-        a {
-            margin-left: 10px;
-        }
-        margin-left: 20px;
-    }
-    .login {
-        a {
-            margin-left: 10px;
-        }
-        margin-left: auto;
-        margin-right: 20px;
-    }
-    .contactUs {
-        
-    }
-    button {
-
-    }
-}
-=======
 	margin: 0;
 	display: flex;
 	justify-content: space-between;
@@ -129,4 +85,3 @@
 		}
 	}
 }
->>>>>>> 3246eec (Начал делать подвал и поправил шапку)

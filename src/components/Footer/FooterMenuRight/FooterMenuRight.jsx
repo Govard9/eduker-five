@@ -2,9 +2,9 @@ import styles from '../Footer.module.scss';
 
 const FooterMenuRight = () => {
 	return (
-		<div className={styles.footer__widget}>
-			<h3 class='footer__widget-title'>Links</h3>
-			<div class='footer__widget-content'>
+		<div className={styles.footer__menu}>
+			<h3 className={styles.footer__menu_title}>Links</h3>
+			<div className={styles.footer__widget_content}>
 				<ul>
 					<li>
 						<a href='#'>News &amp; Blogs</a>

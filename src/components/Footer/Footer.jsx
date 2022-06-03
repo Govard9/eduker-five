@@ -13,18 +13,20 @@ const Footer = () => {
 				<div className={styles.footer__container}>
 					<div className={styles.footer__top_inner}>
 						<div className={styles.footer__logo_social}>
-							<div className={styles.footer__logo}>
-								<NavLink to='/'>
-									<img src={logo} alt=''></img>
-								</NavLink>
-							</div>
-							<div className={styles.footer__info}>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur
-									adipisc ing elit. Nunc maximus, nulla
-									utlaoki comm odo sagittis.
-								</p>
-								<FooterSocial />
+							<div className={styles.footer__logo_social__inner}>
+								<div className={styles.footer__logo}>
+									<NavLink to='/'>
+										<img src={logo} alt=''></img>
+									</NavLink>
+								</div>
+								<div className={styles.footer__info}>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur
+										adipisc ing elit. Nunc maximus, nulla
+										utlaoki comm odo sagittis.
+									</p>
+									<FooterSocial />
+								</div>
 							</div>
 						</div>
 						<FooterMenuLeft />
