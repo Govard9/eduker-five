@@ -1,15 +1,14 @@
-import BottomHeader from "../Header/BottomHeader/BottomHeader";
-import TopHeader from "../Header/TopHeader/TopHeader";
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 import styles from "./Home.module.scss"
 import Slider, { MySectionBlock } from "./Slider/Slider";
-
 
 const Home = (props) => {
   return (
     <div>
-      <TopHeader />
-      <BottomHeader />
+      <Header />
       <Slider data={props.data.slider} />
+      <Footer />
     </div>
   )
 }
