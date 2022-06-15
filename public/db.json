@@ -1,0 +1,25 @@
+{
+    "slider": [
+      {
+        "id": 0,
+        "img": "http://localhost:3000/img/HomeSlider/slider1.jpg",
+        "span": "EDUCAL UNIVERSITY1",
+        "h2": "Together We'll Explore New Things",
+        "p": "We believe everyone should have the opportunity to create progress through technolog.1"
+      },
+      {
+        "id": 1,
+        "img": "http://localhost:3000/img/HomeSlider/slider2.jpg",
+        "span": "EDUCAL UNIVERSITY2",
+        "h2": "Institution of Higher Education",
+        "p": "We believe everyone should have the opportunity to create progress through technolog.2"
+      },
+      {
+        "id": 2,
+        "img": "http://localhost:3000/img/HomeSlider/slider3.jpg",
+        "span": "EDUCAL UNIVERSITY3",
+        "h2": "Educal University was established.",
+        "p": "We believe everyone should have the opportunity to create progress through technolog.3"
+      }
+    ]
+  }
