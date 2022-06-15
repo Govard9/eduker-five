@@ -15,6 +15,10 @@ code {
     monospace;
 }
 
+header {
+  display: inline;
+}
+
 .index_silder .slick-slide.slick-active span,
 .index_silder .slick-slide.slick-active h2,
 .index_silder .slick-slide.slick-active p,

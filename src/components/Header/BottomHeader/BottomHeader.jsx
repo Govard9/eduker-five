@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 
 const BottomHeader = () => {
 	return (
-		<div>
+		<div className={styles.bottomHeader}>
 			<div className={styles.main}>
 				<div className={styles.image}>
 					<NavLink to="/">
