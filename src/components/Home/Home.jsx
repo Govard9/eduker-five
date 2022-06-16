@@ -1,6 +1,6 @@
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import styles from "./Home.module.scss"
+import FeaturesArea from './FeaturesArea/FeaturesArea'
 import Slider, { MySectionBlock } from "./Slider/Slider";
 
 const Home = (props) => {
@@ -8,6 +8,7 @@ const Home = (props) => {
     <div>
       <Header />
       <Slider data={props.data.slider} />
+      <FeaturesArea data={props.data.features} />
       <Footer />
     </div>
   )

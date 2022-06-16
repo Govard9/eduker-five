@@ -1,5 +1,5 @@
-import styles from "../Slider/Slider.module.scss";
-import { settingsArrow } from "../ArrowSlider/ArrowSlider";
+import styles from "./Slider.module.scss";
+import { settingsArrow } from "../Slider/ArrowSlider/ArrowSlider";
 
 import { NavLink } from "react-router-dom";
 

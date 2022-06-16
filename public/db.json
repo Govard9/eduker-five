@@ -21,5 +21,28 @@
         "h2": "Educal University was established.",
         "p": "We believe everyone should have the opportunity to create progress through technolog.3"
       }
+    ],
+    "features": [
+      {
+        "id": 0,
+        "svg": "http://localhost:3000/img/svg/icon1.svg",
+        "h3": "Graduation",
+        "p": "Educal University was established it is recognized.",
+        "link": "http://localhost:3000/about"
+      },
+      {
+        "id": 1,
+        "svg": "http://localhost:3000/img/svg/icon2.svg",
+        "h3": "University Life",
+        "p": "Educal University was established it is recognized.",
+        "link": "http://localhost:3000/about"
+      },
+      {
+        "id": 2,
+        "svg": "http://localhost:3000/img/svg/icon3.svg",
+        "h3": "Education Services",
+        "p": "Educal University was established it is recognized.",
+        "link": "http://localhost:3000/about"
+      }
     ]
   }

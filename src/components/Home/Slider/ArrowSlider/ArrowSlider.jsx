@@ -1,4 +1,4 @@
-import styles from "../Slider/Slider.module.scss";
+import styles from "../Slider.module.scss";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
