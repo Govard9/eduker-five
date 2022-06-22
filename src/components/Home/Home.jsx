@@ -6,10 +6,8 @@ import Slider, { MySectionBlock } from "./Slider/Slider";
 const Home = (props) => {
   return (
     <div>
-      <Header />
       <Slider data={props.data.slider} />
       <FeaturesArea data={props.data.features} />
-      <Footer />
     </div>
   )
 }

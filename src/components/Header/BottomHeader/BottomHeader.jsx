@@ -5,7 +5,7 @@ import Search from "./Search/Search";
 
 import { NavLink } from "react-router-dom";
 
-const BottomHeader = () => {
+const BottomHeader = (props) => {
 	return (
 		<div className={styles.bottomHeader}>
 			<div className={styles.main}>
@@ -34,7 +34,7 @@ const BottomHeader = () => {
 					</ul>
 				</div>
 				<div className={styles.search}>
-					<Search />
+					<Search data={props.iconSearch} cours={props.cours} />
 				</div>
 			</div>
 		</div>

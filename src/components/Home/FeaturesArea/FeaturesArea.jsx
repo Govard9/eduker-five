@@ -3,6 +3,8 @@ import styles from "./FeaturesArea.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
+import { NavLink } from "react-router-dom";
+
 const FeaturesArea = (props) => {
 	return (
 		<section className={styles.section}>
@@ -15,16 +17,16 @@ const FeaturesArea = (props) => {
 							</div>
 							<div className={styles.text}>
 								<h3>
-									<a href="">{item.h3}</a>
+									<NavLink to="/about">{item.h3}</NavLink>
 								</h3>
 								<p>{item.p}</p>
-								<a href={item.link} className={styles.link}>
+								<NavLink to="/about" className={styles.link}>
 									Learn More
 									<FontAwesomeIcon
 										icon={faArrowRight}
 										className={styles.iconArrow}
 									/>
-								</a>
+								</NavLink>
 							</div>
 						</div>
 					</div>

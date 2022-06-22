@@ -1,48 +1,75 @@
 {
-    "slider": [
-      {
-        "id": 0,
-        "img": "http://localhost:3000/img/HomeSlider/slider1.jpg",
-        "span": "EDUCAL UNIVERSITY1",
-        "h2": "Together We'll Explore New Things",
-        "p": "We believe everyone should have the opportunity to create progress through technolog.1"
-      },
-      {
-        "id": 1,
-        "img": "http://localhost:3000/img/HomeSlider/slider2.jpg",
-        "span": "EDUCAL UNIVERSITY2",
-        "h2": "Institution of Higher Education",
-        "p": "We believe everyone should have the opportunity to create progress through technolog.2"
-      },
-      {
-        "id": 2,
-        "img": "http://localhost:3000/img/HomeSlider/slider3.jpg",
-        "span": "EDUCAL UNIVERSITY3",
-        "h2": "Educal University was established.",
-        "p": "We believe everyone should have the opportunity to create progress through technolog.3"
-      }
-    ],
-    "features": [
-      {
-        "id": 0,
-        "svg": "http://localhost:3000/img/svg/icon1.svg",
-        "h3": "Graduation",
-        "p": "Educal University was established it is recognized.",
-        "link": "http://localhost:3000/about"
-      },
-      {
-        "id": 1,
-        "svg": "http://localhost:3000/img/svg/icon2.svg",
-        "h3": "University Life",
-        "p": "Educal University was established it is recognized.",
-        "link": "http://localhost:3000/about"
-      },
-      {
-        "id": 2,
-        "svg": "http://localhost:3000/img/svg/icon3.svg",
-        "h3": "Education Services",
-        "p": "Educal University was established it is recognized.",
-        "link": "http://localhost:3000/about"
-      }
-    ]
-  }
+	"slider": [
+		{
+			"id": 0,
+			"img": "http://localhost:3000/img/HomeSlider/slider1.jpg",
+			"span": "EDUCAL UNIVERSITY1",
+			"h2": "Together We'll Explore New Things",
+			"p": "We believe everyone should have the opportunity to create progress through technolog.1"
+		},
+		{
+			"id": 1,
+			"img": "http://localhost:3000/img/HomeSlider/slider2.jpg",
+			"span": "EDUCAL UNIVERSITY2",
+			"h2": "Institution of Higher Education",
+			"p": "We believe everyone should have the opportunity to create progress through technolog.2"
+		},
+		{
+			"id": 2,
+			"img": "http://localhost:3000/img/HomeSlider/slider3.jpg",
+			"span": "EDUCAL UNIVERSITY3",
+			"h2": "Educal University was established.",
+			"p": "We believe everyone should have the opportunity to create progress through technolog.3"
+		}
+	],
+	"features": [
+		{
+			"id": 0,
+			"svg": "http://localhost:3000/img/svg/icon1.svg",
+			"h3": "Graduation",
+			"p": "Educal University was established it is recognized.",
+			"link": "http://localhost:3000/about"
+		},
+		{
+			"id": 1,
+			"svg": "http://localhost:3000/img/svg/icon2.svg",
+			"h3": "University Life",
+			"p": "Educal University was established it is recognized.",
+			"link": "http://localhost:3000/about"
+		},
+		{
+			"id": 2,
+			"svg": "http://localhost:3000/img/svg/icon3.svg",
+			"h3": "Education Services",
+			"p": "Educal University was established it is recognized.",
+			"link": "http://localhost:3000/about"
+		}
+	],
+	"iconSearch": [
+		{
+			"iconSearch": "http://localhost:3000/img/svg/iconSearch.svg"
+		}
+	],
+	"courses": [
+		{	
+			"id": 0,
+			"title": "Courses JavaScript"
+		},
+		{	
+			"id": 1,
+			"title": "Courses Python"
+		},
+		{	
+			"id": 2,
+			"title": "Courses Go"
+		},
+		{	
+			"id": 3,
+			"title": "Courses PHP"
+		},
+		{	
+			"id": 4,
+			"title": "Courses Ruby"
+		}
+	]
+}

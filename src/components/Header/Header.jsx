@@ -1,11 +1,11 @@
 import TopHeader from './TopHeader/TopHeader';
 import BottomHeader from './BottomHeader/BottomHeader';
 
-const Header = () => {
+const Header = (props) => {
 	return (
 		<header>
 			<TopHeader />
-			<BottomHeader />
+			<BottomHeader iconSearch={props.iconSearch} cours={props.cours} />
 		</header>
 	);
 };
