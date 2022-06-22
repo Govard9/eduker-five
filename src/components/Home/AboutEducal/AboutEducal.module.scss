@@ -1,0 +1,116 @@
+.main {
+	padding-bottom: 120px;
+	.contents {
+		font-family: Roboto, sans-serif;
+		display: flex;
+		justify-content: center;
+	}
+	.allImg {
+		display: flex;
+		margin-left: -35px;
+	}
+	.blockShape {
+		.shape1 {
+			position: absolute;
+			z-index: -1;
+			left: 15.1%;
+			margin-top: 175px;
+		}
+		.shape2 {
+			position: absolute;
+			z-index: -1;
+			left: 10.5%;
+			margin-top: 100px;
+		}
+		.shape3 {
+			position: absolute;
+			z-index: 999;
+			left: 51.5%;
+			margin-top: 30px;
+		}
+	}
+	.imgAbout {
+		img {
+			float: right;
+			margin-right: 10px;
+		}
+	}
+	.imgAbout3 {
+		img {
+			margin-top: 10px;
+		}
+	}
+	.mainText {
+		width: 20%;
+		margin-left: 6%;
+		.textBlock {
+			span {
+				font-size: 16px;
+				font-weight: 500;
+				color: #3d6ce7;
+				margin-top: 20px;
+			}
+			h2 {
+				font-size: 46px;
+				font-weight: 700;
+				margin-top: 10px;
+				margin-bottom: 1px;
+			}
+			p {
+				font-size: 16px;
+				line-height: 28px;
+				color: #4a545c;
+				margin-bottom: 30px;
+			}
+			ul {
+				margin-right: auto;
+				display: contents;
+				li {
+					font-size: 16px;
+					color: #031220;
+					list-style: none;
+					margin-bottom: 10px;
+					i {
+						width: 24px;
+						height: 24px;
+						line-height: 24px;
+						text-align: center;
+						background-color: rgba(38, 192, 137, 0.08);
+						color: #26c089;
+						font-size: 13px;
+						border-radius: 50%;
+						margin-right: 7px;
+					}
+					i:hover {
+						color: #fff;
+						background-color: #26c089;
+						transition: all 0.3s ease-out 0s;
+					}
+				}
+			}
+		}
+		.btn {
+			display: inline-block;
+			font-size: 15px;
+			font-weight: 500;
+			height: 45px;
+			line-height: 45px;
+			text-transform: capitalize;
+			background-color: #3d6ce7;
+			margin-top: 30px;
+			a {
+				display: block;
+				padding: 0 40px;
+				height: 45px;
+				line-height: 45px;
+				text-decoration: none;
+				color: #fff;
+			}
+			a:hover {
+				background-color: #000;
+				color: #fff;
+				transition: all 0.3s ease-out 0s;
+			}
+		}
+	}
+}
