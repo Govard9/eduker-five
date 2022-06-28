@@ -24,7 +24,7 @@
 		}
 		.shape3 {
 			position: absolute;
-			z-index: 999;
+			z-index: 9;
 			left: 51.5%;
 			margin-top: 30px;
 		}
@@ -82,6 +82,11 @@
 						margin-right: 7px;
 					}
 					i:hover {
+						color: #fff;
+						background-color: #26c089;
+						transition: all 0.3s ease-out 0s;
+					}
+					&:hover i {
 						color: #fff;
 						background-color: #26c089;
 						transition: all 0.3s ease-out 0s;

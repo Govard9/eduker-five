@@ -1,75 +1,376 @@
 {
-	"slider": [
-		{
-			"id": 0,
-			"img": "http://localhost:3000/img/HomeSlider/slider1.jpg",
-			"span": "EDUCAL UNIVERSITY1",
-			"h2": "Together We'll Explore New Things",
-			"p": "We believe everyone should have the opportunity to create progress through technolog.1"
-		},
-		{
-			"id": 1,
-			"img": "http://localhost:3000/img/HomeSlider/slider2.jpg",
-			"span": "EDUCAL UNIVERSITY2",
-			"h2": "Institution of Higher Education",
-			"p": "We believe everyone should have the opportunity to create progress through technolog.2"
-		},
-		{
-			"id": 2,
-			"img": "http://localhost:3000/img/HomeSlider/slider3.jpg",
-			"span": "EDUCAL UNIVERSITY3",
-			"h2": "Educal University was established.",
-			"p": "We believe everyone should have the opportunity to create progress through technolog.3"
-		}
-	],
-	"features": [
-		{
-			"id": 0,
-			"svg": "http://localhost:3000/img/svg/icon1.svg",
-			"h3": "Graduation",
-			"p": "Educal University was established it is recognized.",
-			"link": "http://localhost:3000/about"
-		},
-		{
-			"id": 1,
-			"svg": "http://localhost:3000/img/svg/icon2.svg",
-			"h3": "University Life",
-			"p": "Educal University was established it is recognized.",
-			"link": "http://localhost:3000/about"
-		},
-		{
-			"id": 2,
-			"svg": "http://localhost:3000/img/svg/icon3.svg",
-			"h3": "Education Services",
-			"p": "Educal University was established it is recognized.",
-			"link": "http://localhost:3000/about"
-		}
-	],
-	"iconSearch": [
-		{
-			"iconSearch": "http://localhost:3000/img/svg/iconSearch.svg"
-		}
-	],
-	"courses": [
-		{	
-			"id": 0,
-			"title": "Courses JavaScript"
-		},
-		{	
-			"id": 1,
-			"title": "Courses Python"
-		},
-		{	
-			"id": 2,
-			"title": "Courses Go"
-		},
-		{	
-			"id": 3,
-			"title": "Courses PHP"
-		},
-		{	
-			"id": 4,
-			"title": "Courses Ruby"
-		}
-	]
+  "slider": [
+    {
+      "id": 0,
+      "img": "http://localhost:3000/img/HomeSlider/slider1.jpg",
+      "span": "EDUCAL UNIVERSITY1",
+      "h2": "Together We'll Explore New Things",
+      "p": "We believe everyone should have the opportunity to create progress through technolog.1"
+    },
+    {
+      "id": 1,
+      "img": "http://localhost:3000/img/HomeSlider/slider2.jpg",
+      "span": "EDUCAL UNIVERSITY2",
+      "h2": "Institution of Higher Education",
+      "p": "We believe everyone should have the opportunity to create progress through technolog.2"
+    },
+    {
+      "id": 2,
+      "img": "http://localhost:3000/img/HomeSlider/slider3.jpg",
+      "span": "EDUCAL UNIVERSITY3",
+      "h2": "Educal University was established.",
+      "p": "We believe everyone should have the opportunity to create progress through technolog.3"
+    }
+  ],
+  "features": [
+    {
+      "id": 0,
+      "svg": "http://localhost:3000/img/svg/icon1.svg",
+      "h3": "Graduation",
+      "p": "Educal University was established it is recognized.",
+      "link": "http://localhost:3000/about"
+    },
+    {
+      "id": 1,
+      "svg": "http://localhost:3000/img/svg/icon2.svg",
+      "h3": "University Life",
+      "p": "Educal University was established it is recognized.",
+      "link": "http://localhost:3000/about"
+    },
+    {
+      "id": 2,
+      "svg": "http://localhost:3000/img/svg/icon3.svg",
+      "h3": "Education Services",
+      "p": "Educal University was established it is recognized.",
+      "link": "http://localhost:3000/about"
+    }
+  ],
+  "iconSearch": [
+    {
+      "iconSearch": "http://localhost:3000/img/svg/iconSearch.svg"
+    }
+  ],
+  "courses": {
+    "text": [
+      {
+        "id": 0,
+        "span": "Top Courses",
+        "h2": "Our Featured Courses",
+        "p": "Lorem ipsum dolor sit amet, consectetur adipiscing aelit, sed do eiusmod"
+      }
+    ],
+    "cours": [
+      {
+        "id": 0,
+        "img": "http://localhost:3000/img/Courses/course-big7.jpg",
+        "price": "$136",
+        "tag": "UX Design",
+        "h3": "Mechanical Engineering and Electrical Engineering Explained.",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-1.jpg",
+        "tutor": "Brian Cumin",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "26 lessons"
+      },
+      {
+        "id": 1,
+        "img": "http://localhost:3000/img/Courses/course-big10.jpg",
+        "price": "$140",
+        "tag": "Photography",
+        "h3": "Statistics Data Scince and Business Analysis.",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-4.jpg",
+        "tutor": "Phanta Bear",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "32 Lessons"
+      },
+      {
+        "id": 2,
+        "img": "http://localhost:3000/img/Courses/course-big3.jpg",
+        "price": "$69",
+        "tag": "Design",
+        "h3": "A framework for keeping up with an ever-evolving profession.",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-3.jpg",
+        "tutor": "Hilary Ouse",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "26 Lessons"
+      },
+      {
+        "id": 3,
+        "img": "http://localhost:3000/img/Courses/course-big4.jpg",
+        "price": "$78",
+        "tag": "Coding",
+        "h3": "Expertise in a single subject or across a spectrum.",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-4.jpg",
+        "tutor": "Phanta Bear",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "22 Lessons"
+      },
+      {
+        "id": 4,
+        "img": "http://localhost:3000/img/Courses/course-big6.jpg",
+        "price": "$95",
+        "tag": "Medical",
+        "h3": "Teacher Development: Health Curriculum Course.",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-6.jpg",
+        "tutor": "Oliver Porter",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "28 Lessons"
+      },
+      {
+        "id": 5,
+        "img": "http://localhost:3000/img/Courses/course-big1.jpg",
+        "price": "$74",
+        "tag": "Digital",
+        "h3": "University seminar series global.",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-1.jpg",
+        "tutor": "Brian Cumin",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "12 Lessons"
+      },
+      {
+        "id": 6,
+        "img": "http://localhost:3000/img/Courses/course-big5.jpg",
+        "price": "$105",
+        "tag": "Economics",
+        "h3": "Angular the complete guide",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-3.jpg",
+        "tutor": "Hilary Ouse",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "22 Lessons"
+      },
+      {
+        "id": 7,
+        "img": "http://localhost:3000/img/Courses/course-big9.jpg",
+        "price": "$130",
+        "tag": "Design Thinking",
+        "h3": "Mechanical Engineering and Electrical Engineering Explained.",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-3.jpg",
+        "tutor": "Hilary Ouse",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "30 Lessons"
+      },
+      {
+        "id": 8,
+        "img": "http://localhost:3000/img/Courses/course-big2.jpg",
+        "price": "$59",
+        "tag": "Beginner",
+        "h3": "Language Assessment in the Classroom Course.",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-2.jpg",
+        "tutor": "Jack Morkel",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "14 Lessons"
+      },
+      {
+        "id": 9,
+        "img": "http://localhost:3000/img/Courses/course-big6.jpg",
+        "price": "$85",
+        "tag": "IT Specialist",
+        "h3": "Intelligence analyst course 2022.",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-6.jpg",
+        "tutor": "Oliver Porter",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "24 Lessons"
+      },
+      {
+        "id": 10,
+        "img": "http://localhost:3000/img/Courses/course-big12.jpg",
+        "price": "$150",
+        "tag": "Design Thinking",
+        "h3": "The most complete Design Thinking Course on the Market",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-6.jpg",
+        "tutor": "Oliver Porter",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "34 Lessons"
+      },
+      {
+        "id": 11,
+        "img": "http://localhost:3000/img/Courses/course-big7.jpg",
+        "price": "$52",
+        "tag": "Economics",
+        "h3": "Economics historical development",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-3.jpg",
+        "tutor": "Hilary Ouse",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "18 Lessons"
+      },
+      {
+        "id": 12,
+        "img": "http://localhost:3000/img/Courses/course-big2.jpg",
+        "price": "$64",
+        "tag": "UX Design",
+        "h3": "Web coding and apache basics",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-2.jpg",
+        "tutor": "Jack Morkel",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "14 Lessons"
+      },
+      {
+        "id": 13,
+        "img": "http://localhost:3000/img/Courses/course-grid-5.jpg",
+        "price": "$80",
+        "tag": "Design Thinking",
+        "h3": "Differentiation for Learning Course - National Learning Centre",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-3.jpg",
+        "tutor": "Hilary Ouse",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "30 Lessons"
+      },
+      {
+        "id": 14,
+        "img": "http://localhost:3000/img/Courses/course-big-4.jpg",
+        "price": "$42",
+        "tag": "Beginner",
+        "h3": "Learn algebra the easy way!",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-4.jpg",
+        "tutor": "Phanta Bear",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "20 Lessons"
+      },
+      {
+        "id": 15,
+        "img": "http://localhost:3000/img/Courses/course-big-8.jpg",
+        "price": "$120",
+        "tag": "Mechanical",
+        "h3": "The Challenge Of Global Learning In Public Education.",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-2.jpg",
+        "tutor": "Jack Morkel",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "28 Lessons"
+      },
+      {
+        "id": 16,
+        "img": "http://localhost:3000/img/Courses/course-big-4.jpg",
+        "price": "$150",
+        "tag": "Python",
+        "h3": "Machine Learning A-Z: Hands-On Python and java.",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-3.jpg",
+        "tutor": "Hilary Ouse",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "34 Lessons"
+      },
+      {
+        "id": 17,
+        "img": "http://localhost:3000/img/Courses/course-big-4.jpg",
+        "price": "$74",
+        "tag": "Digital",
+        "h3": "Non-Degree Seeking Online Design for Learning Environments.",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-1.jpg",
+        "tutor": "Brian Cumin",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "12 Lessons"
+      },
+      {
+        "id": 18,
+        "img": "http://localhost:3000/img/Courses/course-big1.jpg",
+        "price": "$204",
+        "tag": "Design Thinking",
+        "h3": "Mechanical Engineering and Engineering Explained.",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-1.jpg",
+        "tutor": "Brian Cumin",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "19 Lessons"
+      },
+      {
+        "id": 17,
+        "img": "http://localhost:3000/img/Courses/course-big2.jpg",
+        "price": "$105",
+        "tag": "Mechanical",
+        "h3": "The Challenge Of Global LearningIn Public Education.",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-2.jpg",
+        "tutor": "Jack Morkel",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "14 Lessons"
+      },
+      {
+        "id": 17,
+        "img": "http://localhost:3000/img/Courses/course-big7.jpg",
+        "price": "$52",
+        "tag": "Marketing",
+        "h3": "Become a UI/UX Designer Everything You need To Know.",
+        "p": "A beginner’s guide to designing or renovating interior spaces that pop.",
+        "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-3.jpg",
+        "tutor": "Hilary Ouse",
+        "svg": "http://localhost:3000/img/svg/course_lessons.svg",
+        "lessons": "30 Lessons"
+      }
+    ]
+  },
+  "homeCounter": [
+    {
+      "id": 0,
+      "svg": "http://localhost:3000/img/svg/Counter/counter1.svg",
+      "count": 17,
+      "text": "Years of Language Education Experience"
+    },
+    {
+      "id": 1,
+      "svg": "http://localhost:3000/img/svg/Counter/counter2.svg",
+      "count": 26,
+      "text": "Innovative Foreign Online Courses"
+    },
+    {
+      "id": 2,
+      "svg": "http://localhost:3000/img/svg/Counter/counter3.svg",
+      "count": 44,
+      "text": "Qualified Teachers and language experts"
+    },
+    {
+      "id": 3,
+      "svg": "http://localhost:3000/img/svg/Counter/counter4.svg",
+      "count": 52,
+      "text": "Learners Enrolled in Educal Courses"
+    }
+  ],
+  "campusLife": {
+    "text": [
+      {
+        "id": 0,
+        "span": "Campus life",
+        "h2": "University Campus",
+        "p": "Our research has an impact globally join us in tackling the big issues."
+      }
+    ],
+    "img": [
+      {
+        "id": 1,
+        "img": "http://localhost:3000/img/CampusLife/campus-1.jpg",
+        "svg": "http://localhost:3000/img/svg/campus.svg"
+      },
+      {
+        "id": 2,
+        "img": "http://localhost:3000/img/CampusLife/campus-2.jpg"
+      },
+      {
+        "id": 3,
+        "img": "http://localhost:3000/img/CampusLife/campus-3.jpg"
+      },
+      {
+        "id": 4,
+        "img": "http://localhost:3000/img/CampusLife/campus-4.jpg"
+      },
+      {
+        "id": 5,
+        "img": "http://localhost:3000/img/CampusLife/campus-5.jpg"
+      }
+    ]
+  }
 }
