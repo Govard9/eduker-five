@@ -62,6 +62,7 @@
     "cours": [
       {
         "id": 0,
+        "top": true,
         "img": "http://localhost:3000/img/Courses/course-big7.jpg",
         "price": "$136",
         "tag": "UX Design",
@@ -70,10 +71,11 @@
         "tutorImg": "http://localhost:3000/img/Courses/TutorImage/course-tutor-1.jpg",
         "tutor": "Brian Cumin",
         "svg": "http://localhost:3000/img/svg/course_lessons.svg",
-        "lessons": "26 lessons"
+        "lessons": "26 Lessons"
       },
       {
         "id": 1,
+        "top": true,
         "img": "http://localhost:3000/img/Courses/course-big10.jpg",
         "price": "$140",
         "tag": "Photography",
@@ -86,7 +88,8 @@
       },
       {
         "id": 2,
-        "img": "http://localhost:3000/img/Courses/course-big3.jpg",
+        "top": true,
+        "img": "http://localhost:3000/img/Courses/course-big5.jpg",
         "price": "$69",
         "tag": "Design",
         "h3": "A framework for keeping up with an ever-evolving profession.",
@@ -98,6 +101,7 @@
       },
       {
         "id": 3,
+        "top": true,
         "img": "http://localhost:3000/img/Courses/course-big4.jpg",
         "price": "$78",
         "tag": "Coding",
@@ -110,6 +114,7 @@
       },
       {
         "id": 4,
+        "top": true,
         "img": "http://localhost:3000/img/Courses/course-big6.jpg",
         "price": "$95",
         "tag": "Medical",
@@ -122,6 +127,7 @@
       },
       {
         "id": 5,
+        "top": true,
         "img": "http://localhost:3000/img/Courses/course-big1.jpg",
         "price": "$74",
         "tag": "Digital",
@@ -134,6 +140,7 @@
       },
       {
         "id": 6,
+        "top": false,
         "img": "http://localhost:3000/img/Courses/course-big5.jpg",
         "price": "$105",
         "tag": "Economics",
@@ -146,6 +153,7 @@
       },
       {
         "id": 7,
+        "top": false,
         "img": "http://localhost:3000/img/Courses/course-big9.jpg",
         "price": "$130",
         "tag": "Design Thinking",
@@ -158,6 +166,7 @@
       },
       {
         "id": 8,
+        "top": false,
         "img": "http://localhost:3000/img/Courses/course-big2.jpg",
         "price": "$59",
         "tag": "Beginner",
@@ -170,6 +179,7 @@
       },
       {
         "id": 9,
+        "top": false,
         "img": "http://localhost:3000/img/Courses/course-big6.jpg",
         "price": "$85",
         "tag": "IT Specialist",
@@ -182,6 +192,7 @@
       },
       {
         "id": 10,
+        "top": false,
         "img": "http://localhost:3000/img/Courses/course-big12.jpg",
         "price": "$150",
         "tag": "Design Thinking",
@@ -194,6 +205,7 @@
       },
       {
         "id": 11,
+        "top": false,
         "img": "http://localhost:3000/img/Courses/course-big7.jpg",
         "price": "$52",
         "tag": "Economics",
@@ -206,6 +218,7 @@
       },
       {
         "id": 12,
+        "top": false,
         "img": "http://localhost:3000/img/Courses/course-big2.jpg",
         "price": "$64",
         "tag": "UX Design",
@@ -218,6 +231,7 @@
       },
       {
         "id": 13,
+        "top": false,
         "img": "http://localhost:3000/img/Courses/course-grid-5.jpg",
         "price": "$80",
         "tag": "Design Thinking",
@@ -230,6 +244,7 @@
       },
       {
         "id": 14,
+        "top": false,
         "img": "http://localhost:3000/img/Courses/course-big-4.jpg",
         "price": "$42",
         "tag": "Beginner",
@@ -242,6 +257,7 @@
       },
       {
         "id": 15,
+        "top": false,
         "img": "http://localhost:3000/img/Courses/course-big-8.jpg",
         "price": "$120",
         "tag": "Mechanical",
@@ -254,6 +270,7 @@
       },
       {
         "id": 16,
+        "top": false,
         "img": "http://localhost:3000/img/Courses/course-big-4.jpg",
         "price": "$150",
         "tag": "Python",
@@ -266,6 +283,7 @@
       },
       {
         "id": 17,
+        "top": false,
         "img": "http://localhost:3000/img/Courses/course-big-4.jpg",
         "price": "$74",
         "tag": "Digital",
@@ -278,6 +296,7 @@
       },
       {
         "id": 18,
+        "top": false,
         "img": "http://localhost:3000/img/Courses/course-big1.jpg",
         "price": "$204",
         "tag": "Design Thinking",
@@ -290,6 +309,7 @@
       },
       {
         "id": 17,
+        "top": false,
         "img": "http://localhost:3000/img/Courses/course-big2.jpg",
         "price": "$105",
         "tag": "Mechanical",
@@ -302,6 +322,7 @@
       },
       {
         "id": 17,
+        "top": false,
         "img": "http://localhost:3000/img/Courses/course-big7.jpg",
         "price": "$52",
         "tag": "Marketing",
