@@ -1,0 +1,120 @@
+.section {
+    position: relative;
+    background: #f8f8f8;
+    padding-top: 115px;
+    padding-bottom: 90px;
+    font-family: Roboto, sans-serif;
+
+    .shapeImg {
+
+        .shape1 {
+            position: absolute;
+            top: 0;
+            left: 135px;
+            opacity: .3;
+            z-index: 1;
+        }
+
+        .shape2 {
+            position: absolute;
+            top: 0;
+            opacity: .3;
+            z-index: 1;
+        }
+
+        .shape3 {
+            position: absolute;
+            bottom: 0;
+            right: 85px;
+            z-index: 1;
+        }
+    }
+
+    .mainBlock {
+        display: flex;
+        flex-direction: column;
+
+
+        .blockText {
+            text-align: center;
+
+            span {
+                font-size: 16px;
+                font-weight: 500;
+                text-transform: capitalize;
+                color: #3d6ce7;
+                display: inline-block;
+                margin-bottom: 5px;
+            }
+
+            h2 {
+                font-size: 44px;
+                margin-top: 5px;
+                margin-bottom: 50px;
+            }
+        }
+
+        .blockResearch {
+
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            width: 1200px;
+            z-index: 2;
+
+            .paddingCard {
+                width: 33.3%;
+                display: flex;
+                padding-right: 12px;
+                padding-left: 12px;
+
+                .card {
+                    position: relative;
+
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    text-align: center;
+
+                    padding: 40px 40px 20px;
+                    transition: all .3s ease-out 0s;
+
+                    &:hover {
+                        background-color: #fff;
+                    }
+
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        right: -15px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        background-color: rgba(3, 18, 32, .08);
+                        width: 1px;
+                        height: 350px;
+                    }
+
+                    img {
+                        border-radius: 100px;
+                    }
+
+                    h3 {
+                        font-size: 20px;
+                        font-weight: 600;
+                        color: #000000;
+                        margin-top: 32px;
+                        margin-bottom: 7px;
+                    }
+
+                    p {
+                        font-size: 15px;
+                        font-weight: 400;
+                        color: #49535b;
+                        margin-bottom: 15px;
+                        line-height: 26px;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+}

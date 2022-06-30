@@ -4,6 +4,7 @@ import AboutEducal from './AboutEducal/AboutEducal';
 import Counter from './Counter/Counter';
 import TopCourses from './TopCourses/TopCourses';
 import CampusLife from './CampusLife/CampusLife';
+import DiscoverResearch from './DiscoverResearch/DiscoverResearch';
 
 const Home = (props) => {
   return (
@@ -14,6 +15,7 @@ const Home = (props) => {
       <Counter data={props.data.homeCounter} />
       <TopCourses data={props.data.courses} />
       <CampusLife data={props.data.campusLife} />
+      <DiscoverResearch data={props.data.discoverResearch} />
     </div>
   )
 }

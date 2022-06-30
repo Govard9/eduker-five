@@ -393,5 +393,34 @@
         "img": "http://localhost:3000/img/CampusLife/campus-5.jpg"
       }
     ]
+  },
+  "discoverResearch": {
+    "text": [
+      {
+        "id": 0,
+        "span": "Discover Research",
+        "h2": "Life Changing Research"
+      }
+    ],
+    "imgResearch": [
+      {
+        "id": 0,
+        "img": "http://localhost:3000/img/DiscoverResearch/research-1.jpg",
+        "h3": "Frontier Research",
+        "p": "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa lorem aliqua."
+      },
+      {
+        "id": 1,
+        "img": "http://localhost:3000/img/DiscoverResearch/research-2.jpg",
+        "h3": "Global Research",
+        "p": "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa lorem aliqua."
+      },
+      {
+        "id": 2,
+        "img": "http://localhost:3000/img/DiscoverResearch/research-3.jpg",
+        "h3": "Public Engagement",
+        "p": "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa lorem aliqua."
+      }
+    ]
   }
 }
