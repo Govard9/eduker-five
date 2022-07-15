@@ -55,7 +55,6 @@
         }
 
         .blockResearch {
-
             display: flex;
             margin-left: auto;
             margin-right: auto;
@@ -63,18 +62,32 @@
             z-index: 2;
 
             .paddingCard {
+                position: relative;
                 width: 33.3%;
                 display: flex;
                 padding-right: 12px;
                 padding-left: 12px;
 
+                &::after {
+                    position: absolute;
+                    content: "";
+                    right: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    background-color: rgba(3, 18, 32, .08);
+                    width: 1px;
+                    height: 350px;
+                }
+
+                &:last-child::after {
+                    content: none;
+                }
+
                 .card {
                     position: relative;
-
                     flex-wrap: wrap;
                     justify-content: center;
                     text-align: center;
-
                     padding: 40px 40px 20px;
                     transition: all .3s ease-out 0s;
 
@@ -82,16 +95,7 @@
                         background-color: #fff;
                     }
 
-                    &::after {
-                        position: absolute;
-                        content: "";
-                        right: -15px;
-                        top: 50%;
-                        transform: translateY(-50%);
-                        background-color: rgba(3, 18, 32, .08);
-                        width: 1px;
-                        height: 350px;
-                    }
+                    
 
                     img {
                         border-radius: 100px;

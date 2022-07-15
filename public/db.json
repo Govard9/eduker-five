@@ -422,5 +422,94 @@
         "p": "Lorem ipsum dolor sit amet, consectetur dolorili adipiscing elit. Felis donec massa lorem aliqua."
       }
     ]
+  },
+  "latestNews": {
+    "text": [
+      {
+        "id": 0,
+        "span": "Latest News",
+        "h2": "The latest news from Educal"
+      }
+    ],
+    "news": [
+      {
+        "id": 0,
+        "img": "http://localhost:3000/img/LatestNews/blog-img-1.jpg",
+        "category": "Education",
+        "date": "Dec 28, 2022",
+        "views": "1,526",
+        "autor": "Shahnewaz",
+        "comments": "02 Comments",
+        "title": "Individual master Courses For degree students.",
+        "p": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat […]"
+      },
+      {
+        "id": 1,
+        "img": "http://localhost:3000/img/LatestNews/blog-img-3.jpg",
+        "category": "HR and L&D",
+        "date": "March 14, 2022",
+        "views": "1,326",
+        "autor": "Hilary Ouse",
+        "comments": "02 Comments",
+        "title": "Classroom adapts for the future of learning",
+        "p": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat […]"
+      },
+      {
+        "id": 2,
+        "img": "http://localhost:3000/img/LatestNews/blog-big-2.jpg",
+        "category": "Business",
+        "date": "April 14, 2022",
+        "views": "1,726",
+        "autor": "Brian Cumin",
+        "comments": "02 Comments",
+        "title": "A Podpourri of Learning Options: Pods, Hubs, and Microschools",
+        "p": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat […]"
+      },
+      {
+        "id": 3,
+        "img": "http://localhost:3000/img/LatestNews/blog-big-5.jpg",
+        "date": "07/15/2022",
+        "autor": "Hilary Ouse",
+        "comments": "02 Comments",
+        "title": "A Podpourri of Learning Options: Pods, Hubs, and Microschools",
+        "p": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat […]"
+      },
+      {
+        "id": 4,
+        "img": "http://localhost:3000/img/LatestNews/blog-img-2.jpg",
+        "date": "06/14/2022",
+        "autor": "Brian Cumin",
+        "comments": "02 Comments",
+        "title": "How stay calm from the First time.",
+        "p": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat […]"
+      },
+      {
+        "id": 5,
+        "img": "http://localhost:3000/img/LatestNews/blog-big-4.jpg",
+        "date": "01/14/2022",
+        "autor": "Oliver Porter",
+        "comments": "02 Comments",
+        "title": "Personalized Storage in Schools",
+        "p": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat […]"
+      },
+      {
+        "id": 6,
+        "img": "http://localhost:3000/img/LatestNews/blog-big-4.jpg",
+        "date": "06/14/2022",
+        "autor": "Smith",
+        "comments": "02 Comments",
+        "title": "Kicking off 2022 with the Future of Educational Technology Conference",
+        "p": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat […]"
+      },
+      {
+        "id": 6,
+        "img": "http://localhost:3000/img/LatestNews/blog-big-3.jpg",
+        "date": "05/14/2022",
+        "autor": "Oliver Porter",
+        "comments": "02 Comments",
+        "title": "Amplifying Student Voice to Design the Vision for Learning",
+        "p": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat […]"
+      }
+    ]
   }
 }
