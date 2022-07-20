@@ -468,7 +468,7 @@
       {
         "id": 3,
         "img": "http://localhost:3000/img/LatestNews/blog-big-5.jpg",
-        "date": "07/15/2022",
+        "date": "July 15, 2022",
         "autor": "Hilary Ouse",
         "comments": "02 Comments",
         "title": "A Podpourri of Learning Options: Pods, Hubs, and Microschools",
@@ -477,7 +477,7 @@
       {
         "id": 4,
         "img": "http://localhost:3000/img/LatestNews/blog-img-2.jpg",
-        "date": "06/14/2022",
+        "date": "June 14, 2022",
         "autor": "Brian Cumin",
         "comments": "02 Comments",
         "title": "How stay calm from the First time.",
@@ -486,7 +486,7 @@
       {
         "id": 5,
         "img": "http://localhost:3000/img/LatestNews/blog-big-4.jpg",
-        "date": "01/14/2022",
+        "date": "January 14, 2022",
         "autor": "Oliver Porter",
         "comments": "02 Comments",
         "title": "Personalized Storage in Schools",
@@ -495,7 +495,7 @@
       {
         "id": 6,
         "img": "http://localhost:3000/img/LatestNews/blog-big-4.jpg",
-        "date": "06/14/2022",
+        "date": "June 14, 2022",
         "autor": "Smith",
         "comments": "02 Comments",
         "title": "Kicking off 2022 with the Future of Educational Technology Conference",
@@ -504,12 +504,28 @@
       {
         "id": 6,
         "img": "http://localhost:3000/img/LatestNews/blog-big-3.jpg",
-        "date": "05/14/2022",
+        "date": "May 14, 2022",
         "autor": "Oliver Porter",
         "comments": "02 Comments",
         "title": "Amplifying Student Voice to Design the Vision for Learning",
         "p": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat […]"
       }
     ]
-  }
+  },
+  "CtaArea": [
+    {
+      "id": 0,
+      "img": "http://localhost:3000/img/svg/ctaLeft.svg",
+      "title": "Become an Instructor",
+      "desc": "Teach what you love. Learned gives you neccessary tools to become an instructor.",
+      "btn": "Start Teaching"
+    },
+    {
+      "id": 1,
+      "img": "http://localhost:3000/img/svg/ctaRight.svg",
+      "title": "Apply for Admission",
+      "desc": "Course completed? Then its time apply the certificate Do it in simplesteps with Learned.",
+      "btn": "Apply Now"
+    }
+  ]
 }
